@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu_part{
+    height: 60px;
+    width: 80%;
+    /* background: #4886fa; */
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    align-items: center; 
+  
+}
+
+nav h2{
+    color: #4e4e4e;
+    text-transform: uppercase;
+}
+.nav_menu{
+    flex:1;
+    text-align: right;
+}
+.nav_menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+    position: relative;
+    color: #4e4e4e;
+    
+}
+.nav_menu ul li a{
+    text-decoration: none;
+    color: #4e4e4e; 
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav_menu ul li a:hover{
+    color: #1abb9c;
+}
+
+
+/* Portfolio part start */
+
+.portfolio_part{
+   background-image: url('asset/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    min-height: 80vh;
+    margin:0;
+
+}
+.portfolio_text{
+    text-align: center;
+    padding-top:10%;
+    color: white;
+}
+.portfolio_text p{
+    font-size: 10px;
+    color: #777;
+
+}
+.portfolio_text h2{
+    font-size: 40px;
+}
+
+.portfolio_text p{
+    font-size: 32px;
+}
+.portfolio_text a{
+    text-decoration:none;
+    color: white;
+    border:3px solid rgb(252, 252, 252);
+    background:transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px;
+    transition: 1s;
+}
+.portfolio_text a:hover{
+    background: #3f8dbf;
+}
+
+/* Portfolio part end */
+
+
+
+/* Service part start */
+.service_part{
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+
+    
+    height: 60px;
+    width: 60px;
+    background-color:rgba(245,456,123,0.9);
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    line-height: 80px;
+    border-radius: 50%;
+}
+.col-3 p{
+    color: #777;
+}
+/* Service part end */
+
+
+/* work part start */
+.work_part{
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+    
+    
+}
+.work_part h4{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 18px;
+    padding: 30px;    
+}
+.work_part h2{
+    font-size:24px;
+    padding: 5px;
+    font-weight: 600;
+   
+}
+.work_part h6{
+    font-size:14px;
+    padding: 5px;
+    font-weight: 600;
+    color:#777;
+
+}
+
+.work_part h3{
+    font-size:14px;
+    padding: 5px;
+    font-weight: 600;
+    color:#777;
+}
+
+
+        /* work part end */
+
+        /* about part start*/
+
+
+
+        /* about part end*/
